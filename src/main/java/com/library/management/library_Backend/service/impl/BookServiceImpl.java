@@ -24,7 +24,8 @@ public class BookServiceImpl implements BookService {
      ;
     private static final String AI_SERVICE_URL = "https://api.openai.com/v1/chat/completions";
 
-    private static final String AI_API_KEY = "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"; // Replace with your actual key
+    //Add your own AI API Key
+    private static final String AI_API_KEY = ""; // Replace with your actual key
 
     private BookRepository bookRepository;
     @Override
